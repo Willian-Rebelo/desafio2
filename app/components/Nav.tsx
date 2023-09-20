@@ -12,39 +12,51 @@ const Navigation: React.FC = () => {
   };
 
   return (
-    <nav className="bg-gray-700 p-4">
+    <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
         
         <ul className="flex space-x-4">
           <li>
             <button
-              onClick={() => handleNavigation("sobre")}
+              onClick={() => handleNavigation("Caledario")}
               className={`text-white rounded-md  ${
-                activePage === "sobre" ? "bg-blue-800" : "hover:bg-gray-600" 
+                activePage === "Calendario" ? "bg-blue-800" : "hover:bg-gray-600" 
               }`}
             >
-              Sobre
+              Calendario
             </button>
           </li>
           <li>
             <button
-              onClick={() => handleNavigation("servicos")}
+              onClick={() => handleNavigation("Pilotos")}
               className={`text-white rounded-md  ${
-                activePage === "servicos" ? "bg-blue-800" : "hover:bg-gray-600"
+                activePage === "Pilotos" ? "bg-blue-800" : "hover:bg-gray-600"
               }`}
             >
-              Serviços
+              Pilotos
             </button>
           </li>
           <li>
             <button
-              onClick={() => handleNavigation("contato")}
+              onClick={() => handleNavigation("Pistas")}
               className={`text-white rounded-md ${
-                activePage === "contato" ? "bg-blue-800" : "hover:bg-gray-600"
+                activePage === "Pistas" ? "bg-blue-800" : "hover:bg-gray-600"
               }`}
             >
-              Contato
+              Pistas
             </button>
+
+          </li>
+          <li>
+            <button
+              onClick={() => handleNavigation("Equipes")}
+              className={`text-white rounded-md ${
+                activePage === "Equipes" ? "bg-blue-800" : "hover:bg-gray-600"
+              }`}
+            >
+              Equipes
+            </button>
+            
           </li>
         </ul>
       </div>
