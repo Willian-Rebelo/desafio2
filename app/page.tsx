@@ -11,7 +11,7 @@ export default function Home() {
     <section>
       <Header/>
       <Main/>
-      <Footer/>
+      
 
     </section>
   )

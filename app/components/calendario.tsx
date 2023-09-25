@@ -8,10 +8,9 @@ const MyCalendar: React.FC = () => {
   return (
     <>
     <Header/>
-    <section className='items-center justify-center '>
-        <Calendar/>
-    </section>
-    <Footer/>
+    
+    <Calendar/>
+    
     
     </>
   );
