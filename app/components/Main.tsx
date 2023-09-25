@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export default function Main() {
     return (
-        <section className="py-8 h-screen bg-gray-700">
+      <section className="h-screen py-8 bg-gray-700">
             
         <div className="container mx-auto">
           <section className="text-center">

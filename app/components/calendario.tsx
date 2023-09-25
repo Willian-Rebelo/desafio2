@@ -7,11 +7,11 @@ import Footer from './Footer';
 const MyCalendar: React.FC = () => {
   return (
     <>
-    <Header/>
-    
-    <Calendar/>
-    
-    
+      <main className='h-screen bg-slate-700'>
+        <div className=''> 
+          < Calendar />
+        </div>
+      </main>
     </>
   );
 };
